@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelDesk | CRM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon">T</div>
+                <div><h2>TravelDesk</h2><small>TRAVEL CRM</small></div>
+            </div>
+
+            <div class="nav-label">WORKSPACE</div>
+            <nav>
+                <button class="nav-item active" data-page="dashboard">▦ Dashboard</button>
+                <button class="nav-item" data-page="leads">♙ Leads</button>
+                <button class="nav-item" data-page="customers">♧ Customers</button>
+                <button class="nav-item" data-page="followups">◷ Follow-ups</button>
+                <button class="nav-item" data-page="pipeline">▤ Pipeline</button>
+            </nav>
+
+            <div class="sidebar-bottom">
+                <div class="support"><strong>CRM Support</strong><small>Manage your relationships</small></div>
+                <div class="user">
+                    <div class="avatar">AD</div>
+                    <div><strong>Admin User</strong><small>CRM Manager</small></div>
+                </div>
+            </div>
+        </aside>
+
+        <main class="main">
+            <header class="topbar">
+                <div>
+                    <h3 id="topTitle">Dashboard</h3>
+                    <p>Customer relationship overview</p>
+                </div>
+                <div class="top-right">
+                    <div class="user-mini">
+                        <div class="avatar">AD</div>
+                        <div><strong>Admin User</strong><small>Administrator</small></div>
+                    </div>
+                </div>
+            </header>
+            <section class="content" id="content"></section>
+        </main>
+    </div>
+
+    <div id="modalRoot"></div>
+    <script src="script.js"></script>
+</body>
+</html>
